@@ -2,5 +2,9 @@
 
 void Swap(char *left, char *right)
 {
-	// ваш код здесь
+ char array[] = {*left , *right};
+    char temp;
+    temp = *left;
+    *left = *right;
+    *right = temp;
 }
